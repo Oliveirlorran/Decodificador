@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Decodificador</title>
+</head>
+<body>
+    <header>
+        <img class="logoAlura" src="./assets/logo alura.png" alt="LOGO ALURA">
+    </header>
+    <main>
+        <section class="ladoEsquerdo">
+            <textarea class="area__texto" cols="50" rows="19" placeholder="Digite seu texto"></textarea>
+            <div class="informativo">
+                <h6>Use apenas letras minusculas e sem acentos.</h6>
+            </div>
+            <div class="botao">
+                <button class="botao__criptografar"onclick="botaoCriptografar()"> Criptografar</button>
+                <button class="botao__descriptografar"onclick="botaoDescriptografar()"> Descriptografar</button>
+            </div>
+        </section>
+        <section class="ladoDireito">
+            <img class="pesquisadora" src="./assets/pesquisadora.jpeg" alt="IMAGEM DE UMA PESQUISADORA">
+            <textarea class="mensagem" cols="27" rows="18"></textarea>
+            <p class="primeira__orientacao"><strong>Nenhuma mensagem encontrada</strong></p><p class="segunda__orientacao">Digite ao lado o texto que deseja criptografar ou descriptografar</p>
+            <button class="botao__copiar"> Copiar</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+<footer>Desenvolvido por Lorrâne</footer>
+</html>
